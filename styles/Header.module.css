@@ -1,0 +1,16 @@
+.Nav{
+    background:#4D6375;
+    font-weight: bold;
+    color:white;
+    padding:20px 0
+}
+.con_nav{
+    display:flex;
+}
+.con_nav a{
+    margin-right: 10px;
+}
+.container{
+    margin:auto;
+    width:1200px;
+  }

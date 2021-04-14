@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -71,15 +71,6 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
 .card {
   margin: 1rem;
   flex-basis: 45%;
@@ -112,8 +103,25 @@
 
 .logo {
   height: 1em;
+} */
+.cart{
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding:5px;
+  cursor: pointer;
 }
-
+.con_img{
+  width: 100%;
+  height: 200px;
+}
+.con_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
