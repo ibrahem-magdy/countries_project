@@ -1,7 +1,9 @@
 import { useToast } from "@chakra-ui/react"
-export default function ToastExample() {
+function ToastExample() {
     const toast = useToast()
     return (
+      <Button
+        onClick={() =>
           toast({
             title: "It is first page there is no last pages",
             description: "We've created your account for you.",
@@ -9,5 +11,8 @@ export default function ToastExample() {
             duration: 9000,
             isClosable: true,
           })
+        }
+      ></Button>
+
     )
   }
